@@ -12,17 +12,25 @@ All experiments are made with a fully-connected networks with 2 hidden layers. T
 
 ## catastrophic_forgetting.ipynb
 
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/gphilippee/continual-learning-experiment/blob/main/catastrophic_forgetting.ipynb)
+
 Observe catastrophic forgetting with training on MNIST first and Fashion-MNIST next.
 
 ## rehearsal_approach.ipynb
+
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/gphilippee/continual-learning-experiment/blob/main/rehearsal_approach.ipynb)
 
 Try a rehearsal approach. We train sequentially on MNIST and Fashion-MNIST. At the end of each epoch, we train on a batch of 4096 samples from MNIST.
 
 ## dynamic_architecture.ipynb
 
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/gphilippee/continual-learning-experiment/blob/main/dynamic_architecture.ipynb)
+
 Here, we decompose the output layer in two. 10 neurons for MNIST and 10 neurons for Fashion-MNIST.
 At the end of a batch, we backpropagate only on the neurons that correspond to the current task.
 
 ## synaptic_metaplasticity.ipynb
+
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/gphilippee/continual-learning-experiment/blob/main/synaptic_metaplasticity.ipynb)
 
 We implement the method from the paper: Laborieux et al. Synaptic metaplasticity in binarized neural networks.
