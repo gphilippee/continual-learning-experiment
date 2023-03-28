@@ -34,3 +34,9 @@ At the end of a batch, we backpropagate only on the neurons that correspond to t
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/gphilippee/continual-learning-experiment/blob/main/synaptic_metaplasticity.ipynb)
 
 We implement the method from the paper: Laborieux et al. Synaptic metaplasticity in binarized neural networks.
+
+## own_synaptic_metaplasticity.ipynb
+
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/gphilippee/continual-learning-experiment/blob/main/own_synaptic_metaplasticity.ipynb)
+
+Re-implementation of the paper in a notebook form. One can easily modify the original code.
